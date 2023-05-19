@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,11 +7,59 @@
     <script src="javascript/p5.js"></script>
     <script src="javascript/draw.js"></script>
 
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/canvas.css">
     <link rel="stylesheet" href="css/rsvp.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/navigation.css">
   </head>
   <body>
+    <nav>
+      <div class="navigation">
+        <a href="#when-and-where-area">When and Where</a>
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfpXvZ7Gg1RFAc7G0o5PuWkooAn3TaHZOii5H78oWA0bv-2IA/viewform?usp=sf_link">RSVP</a>
+        <a href="#registry-area"> Registry </a>
+      </div>
+    </nav>
     <main>
+      <div class="top">
+          <p id='date'> - 10.07.23 - </p>
+          <p id='name'> Caileigh & Kelley </p>
+          <p id='married'> We're Getting Married! </p>
+      </div>
+      <div class="nice-words">
+        Come to our wedding I guess if you want to.
+        Something mushy and gushy and nice.
+        IDK what people say here but the example is dumb.
+        We Joyfully request the pleasure of your comapny as
+        we speak our vows and join in marriage in the presence
+        of family and friends this match made in heaven.
+      </div>
+      <div class="when" id="when-and-where-area">
+        <h1>Saturday, October 7th, 2023</h1>
+        <p>
+          Pictures: you know, when we start <br>
+          Reception: some time <br>
+          Ceremony: after that time
+        </p>
+      </div>
+      <div class="where">
+        <h1>Legacy Church</h1>
+        <a target="_blank" href="https://www.google.com/maps/place/Legacy+Church/@39.9913498,-105.1736492,17z/data=!3m1!4b1!4m6!3m5!1s0x876bf35e9115e99d:0x829c02c54e04541a!8m2!3d39.9913498!4d-105.1736492!16s%2Fg%2F1vs1sc9z">
+          270 76th St, Boulder, CO 80303
+        </a>
+        <p>Our local church is kindly allowing us to join in holy
+        matrimony at the place of our lord and saviour's praise.
+        A wonderful place with a big open field. Reception will be
+        here as well.
+        </p>
+      </div>
+      <div class="registry" id="registry-area">
+        <h1>Registry</h1>
+        GET US GIFTS!!!!!!!!
+        Here's the list so yall don't get us bad stuff
+      </div>
+      <a id="rsvp-area"></a>
       <button type="button" name="rsvp" id="rsvp"
       onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfpXvZ7Gg1RFAc7G0o5PuWkooAn3TaHZOii5H78oWA0bv-2IA/viewform?usp=sf_link','_blank')">
       RSVP</button>

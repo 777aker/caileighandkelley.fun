@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  z-index: 2000;
+  position: relative;
+  width: 100%;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.navigation > a {
+  text-align: center;
+  padding: 10px;
+}
