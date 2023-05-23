@@ -3,9 +3,18 @@ main {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 
 a {
   position: relative;
   z-index: 2000;
+}
+
+body {
+  background-color: rgba(180, 223, 220, .3);
+  overflow-x: hidden;
 }

@@ -8,4 +8,28 @@
 
 .top > p {
   text-align: center;
+  color: rgb(229, 56, 140);
+}
+
+#date {
+  font-size: 18pt;
+  margin-top: 48px;
+  margin-bottom: 0px;
+}
+
+#name {
+  font-size: 32pt;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#married {
+  font-size: 18pt;
+  margin-top: 10px;
+}
+
+#topimage {
+  position: relative;
+  width: 100%;
+  z-index: -100;
 }
