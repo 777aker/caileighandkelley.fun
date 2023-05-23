@@ -6,6 +6,11 @@
   width: 100%;
   align-items: stretch;
   justify-content: center;
+  background-color: rgb(180, 223, 220);
+  margin: 0px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
 }
 
 .navigation > a {

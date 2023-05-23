@@ -1,0 +1,29 @@
+.nice-words {
+  background-color: rgba(245, 228, 231, .3);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.when {
+  background-color: rgba(245, 170, 106, .8);
+}
+
+.when > h1 {
+  color: rgb(229, 56, 140);
+}
+
+.where {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: rgba(245, 170, 106, .8);
+}
+
+.where > h1 {
+  color: rgb(229, 56, 140);
+}
+
+.registry {
+
+}
