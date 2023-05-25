@@ -16,6 +16,7 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: lightgreen;
 }
 
 .when {
@@ -39,5 +40,6 @@ h1 {
 }
 
 .registry {
-
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
