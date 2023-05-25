@@ -18,3 +18,7 @@ body {
   background-color: rgba(180, 223, 220, .3);
   overflow-x: hidden;
 }
+
+body * {
+  font-family: 'Helvetica';
+}

@@ -11,6 +11,8 @@
   position: fixed;
   left: 0px;
   top: 0px;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .navigation > a {

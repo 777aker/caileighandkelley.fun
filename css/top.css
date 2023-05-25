@@ -4,6 +4,10 @@
   justify-content: center;
   align-items: stretch;
   width: 100%;
+  background-image: url("cailkelley.png");
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 50%;
 }
 
 .top > p {
@@ -12,24 +16,29 @@
 }
 
 #date {
-  font-size: 18pt;
-  margin-top: 48px;
+  font-size: 14pt;
+  padding-top: 5%;
   margin-bottom: 0px;
 }
 
 #name {
-  font-size: 32pt;
-  margin-top: 10px;
-  margin-bottom: 0px;
+  font-size: 38pt;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #married {
-  font-size: 18pt;
+  font-size: 14pt;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 #topimage {
   position: relative;
   width: 100%;
   z-index: -100;
+}
+
+.top * {
+  font-family: 'Prata';
 }

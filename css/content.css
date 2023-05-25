@@ -2,12 +2,26 @@
   background-color: rgba(245, 228, 231, .3);
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+h1 {
+  font-family: 'Prata';
+  color: rgb(229, 56, 140);
+}
+
+.caileighwhyyyyyyy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .when {
-  background-color: rgba(245, 170, 106, .8);
+  flex: 1 1 0px;
+  padding: 5%;
+  min-width: 350px;
 }
 
 .when > h1 {
@@ -15,9 +29,9 @@
 }
 
 .where {
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: rgba(245, 170, 106, .8);
+  flex: 1 1 0px;
+  padding: 5%;
+  min-width: 350px;
 }
 
 .where > h1 {
