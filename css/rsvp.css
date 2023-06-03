@@ -13,6 +13,15 @@
   left: 50%;
   transform: translate(-50%, 0%);
   margin-bottom: 10%;
+  border-radius: 4px;
+  transition-duration: 2s;
+}
+
+#rsvp:hover {
+  background-color: cyan;
+  transition-duration: 2s;
+  /*cursor: pointer;*/
+  cursor: not-allowed;
 }
 
 .rsvp-div {
