@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   flex-flow: row wrap;
-  z-index: 2000;
+  z-index: 7000;
   position: relative;
   width: 100%;
   align-items: stretch;
