@@ -20,8 +20,7 @@
 #rsvp:hover {
   background-color: cyan;
   transition-duration: 2s;
-  /*cursor: pointer;*/
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .rsvp-div {

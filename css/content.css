@@ -19,23 +19,13 @@ h1 {
   background-color: lightgreen;
 }
 
-.when {
+.caileighwhyyyyyyy > div {
   flex: 1 1 0px;
   padding: 5%;
   min-width: 350px;
 }
 
-.when > h1 {
-  color: rgb(229, 56, 140);
-}
-
-.where {
-  flex: 1 1 0px;
-  padding: 5%;
-  min-width: 350px;
-}
-
-.where > h1 {
+.caileighwhyyyyyyy > h1 {
   color: rgb(229, 56, 140);
 }
 
