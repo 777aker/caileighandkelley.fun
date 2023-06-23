@@ -66,6 +66,7 @@ class Particle {
   }
 
   draw() {
+    noStroke();
     fill(this.r, this.g, this.b);
     ellipse(this.x, this.y, this.radius);
   }
