@@ -12,11 +12,19 @@ main {
 a {
   position: relative;
   z-index: 2000;
+  color: rgba(253,231,125,255);
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover {
+  color: rgba(241,178,56,255);
 }
 
 body {
-  background-color: rgba(180, 223, 220, .3);
+  background-color: rgba(30,41,62,255);
   overflow-x: hidden;
+  color: rgba(240,187,62,255);
 }
 
 body * {

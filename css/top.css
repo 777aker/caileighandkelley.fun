@@ -12,7 +12,8 @@
 
 .top > p {
   text-align: center;
-  color: rgb(229, 56, 140);
+  color: rgba(29,39,62,255);
+  text-shadow: 2px 2px 5px #f8ba89;
 }
 
 #date {

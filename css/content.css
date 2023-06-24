@@ -1,5 +1,5 @@
 .nice-words {
-  background-color: rgba(245, 228, 231, .3);
+  background-color: rgba(30,40,63,255);
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 20%;
@@ -8,7 +8,7 @@
 
 h1 {
   font-family: 'Prata';
-  color: rgb(229, 56, 140);
+  color: rgba(183,101,69,255);
 }
 
 .caileighwhyyyyyyy {
@@ -16,7 +16,7 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: lightgreen;
+  background-color: rgba(30,40,63,255);
 }
 
 .caileighwhyyyyyyy > div {

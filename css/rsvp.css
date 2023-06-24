@@ -1,7 +1,7 @@
 #rsvp {
-  background-color: green;
+  background-color: rgba(253,231,126,255);
   border: none;
-  color: white;
+  color: rgba(30,41,62,255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -9,7 +9,7 @@
   font-size: 16px;
   position: relative;
   z-index: 2000;
-  width: 50%;
+  width: 30%;
   left: 50%;
   transform: translate(-50%, 0%);
   margin-bottom: 10%;
@@ -18,9 +18,10 @@
 }
 
 #rsvp:hover {
-  background-color: cyan;
+  background-color: rgba(241,178,56,255);
   transition-duration: 2s;
   cursor: pointer;
+  padding: 20px;
 }
 
 .rsvp-div {
