@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/canvas.css">
     <link rel="stylesheet" href="css/rsvp.css">
-    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/greeting.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prata">
@@ -18,20 +18,29 @@
   <body>
     <nav>
       <div class="navigation">
-        <a href="#when-and-where-area">When and Where</a>
-        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfpXvZ7Gg1RFAc7G0o5PuWkooAn3TaHZOii5H78oWA0bv-2IA/viewform?usp=sf_link">RSVP</a>
-        <a href="#registry-area"> Registry </a>
+        <button type="button" name="button"
+        onclick="location.href='#when-and-where-area'">
+          When and Where</button>
+        <button type="button" name="button"
+        onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfpXvZ7Gg1RFAc7G0o5PuWkooAn3TaHZOii5H78oWA0bv-2IA/viewform?usp=sf_link','_blank')">
+          RSVP</button>
+        <button type="button" name="button"
+        onclick="location.href='#registry-area'">
+          Registry</button>
       </div>
     </nav>
     <main>
-      <div class="top">
+      <div class="greeting" id="greeting">
           <p id='date'> - 10.07.23 - </p>
           <p id='name'> Caileigh & Kelley </p>
           <p id='married'>
             We said yes and are getting married! <br>
             We are thrilled to share our special day with you.
           </p>
-          <a href="easter.html">Countdown</a>
+          <button id="countdown-btn" onclick="window.open('easter.html','_blank')">Countdown</a>
+      </div>
+      <div class="yay-married">
+        <img src="css/hudson29.jpg" alt="Caileigh and Kelley walking">
       </div>
       <div class="caileighwhyyyyyyy">
         <div class="when" id="when-and-where-area">
@@ -99,6 +108,10 @@
         <button type="button" name="rsvp" id="rsvp"
         onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfpXvZ7Gg1RFAc7G0o5PuWkooAn3TaHZOii5H78oWA0bv-2IA/viewform?usp=sf_link','_blank')">
         RSVP</button>
+      </div>
+
+      <div class="home-again">
+        <a href="#greeting">Caileigh and Kelley</a>
       </div>
     </main>
   </body>

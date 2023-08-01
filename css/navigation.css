@@ -1,17 +1,7 @@
-.navigation {
-  display: flex;
-  flex-flow: row wrap;
-  z-index: 7000;
-  position: relative;
-  width: 100%;
-  align-items: stretch;
-  justify-content: center;
-  background-color: rgba(29,40,62,255);
-  margin: 0px;
+nav {
   position: fixed;
-  left: 0px;
-  top: 0px;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  box-shadow: 0px 0px 20px 5px #f8ba89;
+  z-index: 3;
+  top: 10px;
+  right: 10px;
+  overflow: hidden;
 }

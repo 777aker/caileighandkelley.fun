@@ -1,14 +1,12 @@
-.nice-words {
-  background-color: rgba(30,40,63,255);
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20%;
-  padding-bottom: 20%;
+.yay-married {
+  text-align: center;
+  background-color: #f9e9bd;
+  color: #2c3e50;
 }
 
-h1 {
-  font-family: 'Prata';
-  color: rgba(183,101,69,255);
+.yay-married > img {
+  width: 100%;
+  height: auto;
 }
 
 .caileighwhyyyyyyy {
@@ -16,7 +14,8 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(30,40,63,255);
+  color: #2c3e50;
+  text-align: left;
 }
 
 .caileighwhyyyyyyy > div {
@@ -25,15 +24,48 @@ h1 {
   min-width: 350px;
 }
 
-.caileighwhyyyyyyy > h1 {
-  color: rgb(229, 56, 140);
+.when {
+  background-color: #e79d79;
+  color: #2c3e50;
+
 }
 
-.registry {
-  margin-top: 15%;
-  margin-bottom: 15%;
+h1{
+  font-family: 'Abril-Fatface';
+  color: #2c3e50;
+}
+.where {
+  background-color: #e79d79;
+color: #2c3e50;
 }
 
 .hotels {
-  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+  background-color: #f9e9bd;
+}
+
+.registry {
+  text-align: center;
+  padding: 5%;
+  background-color: #c45c39;
+  color: #2c3e50;
+}
+
+.rsvp-div {
+  text-align: center;
+  padding: 5%;
+  background-color: #f9e9bd;
+  color: #2c3e50;
+}
+
+.home-again {
+  text-align: center;
+  padding: 5%;
+  background-color: #e69757;
+  color: #2c3e50;
+}
+
+#rsvp {
+  font-size: 22pt;
 }

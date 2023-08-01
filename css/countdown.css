@@ -1,8 +1,0 @@
-.countdowndiv {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 100%;
-  z-index: 1005;
-}

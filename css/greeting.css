@@ -1,0 +1,36 @@
+.greeting {
+  margin-top: 0px;
+  padding-top: 5%;
+  display: flex;
+  justify-content: top;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-image: url("background.png");
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+  color: rgba(29,40,62,255);
+}
+
+.greeting *  {
+  font-family: 'Prata';
+}
+
+#date {
+  margin-top: 50px;
+  font-size: 20pt;
+}
+
+#name {
+  margin: 30px;
+  font-size: 48pt;
+}
+
+#married {
+  font-size: 18pt;
+}
+
+#countdown-btn {
+  align-self: center;
+}
