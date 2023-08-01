@@ -55,8 +55,8 @@ class Particle {
     this.radius = random(10, 20);
     this.lifetime = random(1, 3);
     this.r = random(150, 250);
-    this.g = random(50, 100);
-    this.b = random(100, 200);
+    this.g = random(50, 75);
+    this.b = random(25, 50);
   }
 
   color() {
