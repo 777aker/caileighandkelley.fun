@@ -1,6 +1,6 @@
 .yay-married {
   text-align: center;
-  background-color: #f9e9bd;
+  background-color: #e79d79;
   color: #2c3e50;
 }
 
@@ -30,10 +30,11 @@
 
 }
 
-h1{
+h1 {
   font-family: 'Abril-Fatface';
   color: #2c3e50;
 }
+
 .where {
   background-color: #e79d79;
 color: #2c3e50;
@@ -64,7 +65,15 @@ color: #2c3e50;
   padding: 5%;
   background-color: #e69757;
   color: #2c3e50;
+  font-family: "Abril-Fatface";
 }
+
+.home-again>a {
+  font-family: "Abril-Fatface";
+  text-decoration: none;
+  font-weight: Bold;
+}
+
 
 #rsvp {
   font-size: 22pt;

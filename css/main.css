@@ -17,10 +17,13 @@ a:hover {
 
 h1 {
   font-size: 26pt;
+  font-family: 'Abril-Fatface';
+  color: #2c3e50;
 }
 
 p {
   font-size: 14pt;
+  padding: 20px;
 }
 
 body * {

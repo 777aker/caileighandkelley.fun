@@ -18,12 +18,13 @@
 }
 
 #date {
-  margin-top: 50px;
   font-size: 20pt;
+  padding: 20px;
 }
 
 #name {
-  margin: 30px;
+  padding: 20px;
+  margin: 0px;
   font-size: 48pt;
 }
 
